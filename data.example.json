@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Is this testing question?",
+    "shortuid": "test",
+    "text": "This is just a testing question. Do you like? Do you think it is displayed OK?",
+    "type": "option",
+    "answers": [
+      {
+        "label": "Yes"
+      },
+      {
+        "label": "No",
+        "advice": "Try to explain in issues"
+      }
+    ],
+    "experts": [
+		{
+          "name": "Barend Mons",
+		  "email": "barend.mons@dtls.nl"
+        }
+    ],
+    "references": [
+      {
+        "type": "url",
+        "weblink": "https://www.csc.fi/web/blog/post/-/blogs/the-largest-unplanned-outage-in-years-and-how-we-survived-it",
+        "anchor": "How CSC restored 850 million temporary files"
+      }
+    ]
+  }
+
+]
