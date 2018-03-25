@@ -48,7 +48,7 @@ class Question:
         q = Question()
         q.title = dct.get('title')
         q.shortuid = dct.get('shortuid')
-        q.text = dct.get('text', '')
+        q.text = dct.get('text', None)
         q.type = dct.get('type')
         if q.type == 'option':
             q.answers = [Answer.create(a) for a in dct.get('answers')]

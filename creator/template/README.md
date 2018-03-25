@@ -6,7 +6,7 @@ Short UID: {{ question.shortuid }}
 
 ## The Question
 
-{{ question.text }}
+{% if question.text is not none %}{{ question.text }}{% else %}{{ question.title }}{% endif %}
 {% if question.type == 'option' %}
 ### Possible answers:
 {% for answer in question.answers %}
