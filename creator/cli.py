@@ -2,7 +2,7 @@ import click
 import configparser
 
 from creator.content import load_from_json, render
-from creator.github import GitHubCreator, GitHubError
+from creator.github import GitHubCreator, GitHubError, DummyGitHub
 
 
 def upload_file(cfg, github, question, filename, message, owner, reponame):
@@ -47,11 +47,12 @@ def create_repo(cfg, github, question, update_only=False):
 @click.argument('json_file', type=click.File('r'))
 @click.option('-c', '--cfg-file', type=click.File('r'), default='./config.cfg')
 @click.option('-u', '--update-only', is_flag=True)
-def cli(cfg_file, json_file, update_only):
+@click.option('-d', '--dry_run', is_flag=True)
+def cli(cfg_file, json_file, update_only, dry_run):
     cfg = configparser.ConfigParser()
     cfg.read_file(cfg_file)
 
-    github = GitHubCreator(cfg['github']['token'])
+    github = DummyGitHub if dry_run else GitHubCreator(cfg['github']['token'])
 
     total = 0
     ok = 0

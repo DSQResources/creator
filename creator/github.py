@@ -72,3 +72,23 @@ class GitHubCreator:
             'committer': {'name': committer, 'email': email},
             'branch': branch
         }
+
+
+class DummyGitHub:
+
+    def __init__(self, token, session=None):
+        pass
+
+    def create_repository(self, *args, **kwargs):
+        return {'dummy': 'ok'}
+
+    def upload_file(self, *args, **kwargs):
+        return {'dummy': 'ok'}
+
+    @staticmethod
+    def filedata(*args, **kwargs):
+        return {'dummy': 'ok'}
+
+    @staticmethod
+    def repodata(*args, **kwargs):
+        return {'dummy': 'ok'}
