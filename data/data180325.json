@@ -1,0 +1,664 @@
+[
+  {
+    "type": "option",
+    "shortuid": "atq",
+    "title": "Is there any pre-existing data?",
+    "text": "Are there any data sets available in the world that are relevant to your planned research?",
+    "answers": [
+      {
+        "label": "No",
+        "advice": "You know that this is very unlikely? This question is not only about data sets that are similar to what you want to determine yourself, but also reference data or data that should be mined from the existing literature. Further, it is very likely that you will refer to related data, e.g. other databases where you usually \"quickly look something up\", but that could maybe be properly integrated, especially if you need to do such lookups multiple times."
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "ezi",
+    "title": "Will you be using any pre-existing data (including other people's data)?",
+    "text": "Will you be referring to any earlier measured data, reference data, or data that should be mined from existing literature? Your own data as well as data from others?",
+    "answers": [
+      {
+        "label": "No",
+        "advice": "Did you research all the data that exists? You may not be aware of all existing data that could be available. Although using and/or integrating existing data sets may pose a challenge, it will normally be cheaper than collecting everything yourself. Even if you decide not to use an existing data set, it is better to do this as a conscious decision."
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "list",
+    "shortuid": "quc",
+    "title": "What reference data will you use?",
+    "text": "Much of todays data is used in comparison with reference data. A genome for instance is compared with a reference genome to identify genomic variants. If you use reference data, there are several other issues that you should consider. What are the reference data sets that you will use?"
+  },
+  {
+    "type": "option",
+    "shortuid": "ckt",
+    "title": "Do you know where and how is it available?",
+    "text": "Do you know where the reference data is available, what the conditions for use are, and how to reference it?",
+    "answers": [
+      {
+        "label": "No",
+        "advice": "Figure this out quickly!"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "jxb",
+    "title": "Do you know in what format the reference data is available?",
+    "text": "Do you know the data format of the reference data? Is this suitable for your work? Does it need to be converted?",
+    "answers": [
+      {
+        "label": "I can directly use it"
+      },
+      {
+        "label": "I need to convert it before using"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "rgy",
+    "title": "Is the reference data resource versioned?",
+    "text": "Many reference data sets evolve over time. If the reference data set changes, this may affect your results. If different versions of a reference data set exist, you need to establish your \"version policy\".",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "questionid": 9,
+    "type": "list",
+    "shortuid": "wya",
+    "title": "What existing non-reference data sets will you use?",
+    "text": "Even if you will be producing your own data, you often will also be relying on existing data sets (e.g. from earlier . You may need to integrate your new data with an existing data set or retrieve additional information from related data bases. Will you be doing such things?"
+  },
+  {
+    "type": "option",
+    "shortuid": "dcy",
+    "title": "Will the owners of this data set work with you on this study",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      },
+      {
+        "label": "We are the owners"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "bqy",
+    "title": "Is extension of any consent for privacy sensitive data needed?",
+    "text": "If the data that you will re-use is coupled to people, is the informed consent that was originally obtained from those people covering your current research?",
+    "answers": [
+      {
+        "label": "Not applicable"
+      },
+      {
+        "label": "Existing consent applies"
+      },
+      {
+        "label": "New consent needed"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "wht",
+    "title": "Do you need to harmonize different sources of existing data?",
+    "text": "If you are combining data from different sources, harmonization may be required. You may need to re-analyse some original data.",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "pth",
+    "title": "Will you be using data that needs to be (re-)made computer readable first?",
+    "text": "Some old data may need to be recovered, e.g. from tables in scientific papers or may be punch cards.",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes, I will make sure to make this data available with my results."
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "rbz",
+    "title": "Will reference data be created?",
+    "text": "Will any of the data that you will be creating form a reference data set for future research (by others)?",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "shortuid": "hct",
+    "title": "What will the Intellectual Property be like?",
+    "text": "Who will own the rights to the reference data set? Who will be able to use it?"
+  },
+  {
+    "type": "text",
+    "shortuid": "usx",
+    "title": "How will you maintain it?",
+    "text": "How will maintenance be paid for in the long run? Will you host it yourself or deposit it with a repository? How will you deal with requests for help? And with requests for adding data?"
+  },
+  {
+    "type": "option",
+    "shortuid": "kuz",
+    "title": "Will you be storing samples?",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "csx",
+    "title": "Will you be collecting experimental data?",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "njy",
+    "title": "Have you identified types of data that you will use that are used by others too?",
+    "text": "Some types of data (e.g. genetic variants in the life sciences) are used by many different projects. For such data, often common standards exist that help to make these data reusable. Are you using such common data formats?",
+    "answers": [
+      {
+        "label": "No, I am not using any common data types"
+      },
+      {
+        "label": "Yes, I will make sure to use common formats for common data types"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "ikk",
+    "title": "Will you be using new types of data?",
+    "text": "Sometimes the type of data you collect can not be stored in a commonly used data format. In such cases you may need to make your own, keeping interoperability as high as possible.",
+    "answers": [
+      {
+        "label": "No, all of my data will fit in common formats"
+      },
+      {
+        "label": "Yes, I will need to use custom formats for some of my data"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "ske",
+    "title": "Do you need to create vocabularies or ontologies for any of your data items?",
+    "text": "For good interoperability the use of controlled vocabularies for each discrete data item is advisable. If such vocabularies exist, it is best to reuse those.",
+    "answers": [
+      {
+        "label": "No, suitable public controlled vocabularies or ontologies exist for all of my data types"
+      },
+      {
+        "label": "Yes, I will make and publish a vocabulary or ontology for some of my data"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "jwg",
+    "title": "How will you design your new data format?",
+    "answers": [
+      {
+        "label": "There is a closely related more generic and open format that I can specialize"
+      },
+      {
+        "label": "I will use a Linked Data format"
+      },
+      {
+        "label": "I will use a completely custom data format"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "rhm",
+    "title": "How will you be storing metadata?",
+    "text": "For the re-usability of your data by yourself or others at a later stage, a lot of information about the data, how it was collected and how it can be used should be stored with the data. Such data about the data is called metadata, and this set of questions are about this metadata",
+    "answers": [
+      {
+        "label": "Skip"
+      },
+      {
+        "label": "Explore"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "spg",
+    "title": "Did you consider how to monitor data integrity?",
+    "text": "Working with large amounts of heterogenous data in a larger research group has implications for the data integrity. How do you make sure every step of the workflow is done with the right version of the data? How do you handle the situation when a mistake is uncovered? Will you be able to redo the strict minimum data handling?",
+    "answers": [
+      {
+        "label": "Skip"
+      },
+      {
+        "label": "Explore"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "atw",
+    "title": "Will you store the licenses with the data at all time?",
+    "text": "It is very likely that data will be moved and copied. At some point people may lose track of the origins. It can be helpful to have the licenses (of coarse as open as possible) stored in close association with the data.",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "kjp",
+    "title": "Will you be archiving data (using so-called 'cold storage') for long term preservation?",
+    "text": "Much of the raw data you have will need to be archived for your own later use somewhere. This is often done off-line on tape, not on the disks of the compute facility. Please note that this does not refer to the data publication; questions related to data publication will follow later.",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "ixr",
+    "title": "Can the original data be regenerated?",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "tgk",
+    "title": "Is the archived data changing over time, needing re-archival?",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "ybd",
+    "title": "Will your project require the archives to be available on-line?",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "kdp",
+    "title": "Has it been established how long the archived data need to be kept? For each of the different parts of the archive (raw data / results)?",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "zmu",
+    "title": "Will the data still be understandable after a long time?",
+    "text": "See also all questions about keeping metadata and data formats. Make sure the metadata is kept close to the data in the archive, and that community supported data formats are used for all long term archiving.",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "wia",
+    "title": "Do you need the work space to be close to the compute capacity?",
+    "text": "If you have large volumes of data that are intensely and repeatedly used by the computing work flow, it may be needed to keep the storage in the same place as where the computing takes place.",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "cbq",
+    "title": "Is there software in the work space? Can it also be restored quickly?",
+    "answers": [
+      {
+        "label": "There is no software"
+      },
+      {
+        "label": "Software in the work space is only a copy"
+      },
+      {
+        "label": "Special care will be taken for the software and configurations"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "ybw",
+    "title": "Do you have any non-equipment data capture?",
+    "text": "Does the data you collect contain non-equipment captured data such as questionnaires, case report forms, electronic patient records?",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "hfg",
+    "title": "Will you be collecting case report forms?",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "qzt",
+    "title": "Will you be exploring options, or run in bulk?",
+    "text": "What will be the operational mode for your workflows? Will you be exploring options by changing tools and tweaking parameters? Of will you be running the same exact workflow on a large number of data files?",
+    "answers": [
+      {
+        "label": "We will be exploring options"
+      },
+      {
+        "label": "We will be running in bulk"
+      },
+      {
+        "label": "A bit of both"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "ydj",
+    "title": "Did you choose the workflow engine you will be using?",
+    "answers": [
+      {
+        "label": "Yes, we will be using what we always use",
+        "advice": "Make sure that you are not missing out on alternatives that would have better properties for the project"
+      },
+      {
+        "label": "Yes, we have selected one based on what features we need"
+      },
+      {
+        "label": "Not yet, we will"
+      },
+      {
+        "label": "Not yet, please guide the choice with more questions on this topic"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "jrw",
+    "title": "Who are the people that will run the workflows?",
+    "text": "There is no concrete map of these features to suitable workflow engines at this moment, but filling in these questions can lead you to think about the most important features for the project",
+    "answers": [
+      {
+        "label": "Computer savvy operators"
+      },
+      {
+        "label": "Subject matter experts with a strong computer knowledge"
+      },
+      {
+        "label": "Subject matter experts with no affinity for computer solutions"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "grt",
+    "title": "Do work flows need to be run on remote computers?",
+    "text": "There is no concrete map of these features to suitable workflow engines at this moment, but filling in these questions can lead you to think about the most important features for the project",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "xyf",
+    "title": "Is durability of work flows important for you?",
+    "text": "There is no concrete map of these features to suitable workflow engines at this moment, but filling in these questions can lead you to think about the most important features for the project",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "pzqa",
+    "title": "Will you use a central repository for all tools and their versions as used in your project?",
+    "text": "Especially if analysis and processing of data in the project is done on multiple different computers by different people, it is a good idea to have your own repository of tools and their blessed versions.",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "pzqb",
+    "title": "Will you use a central repository for reference data used in your project?",
+    "text": "Especially if analysis and processing of data in the project is done on multiple different computers by different people, it is a good idea to have your own repository of reference data versions.",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "egv",
+    "title": "Will you run part of the data set repeatedly to catch unexpected changes in results?",
+    "text": "Running a small subset of the data repeatedly can be useful to catch unexpected problems that would otherwise be very hard to detect.",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "qqb",
+    "title": "Will you be using a workflow for data integration, e.g. with tools for database access or conversion?",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "fxm",
+    "title": "Will you provide your results as semantically interoperable linked data?",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "bzu",
+    "title": "Will you be doing (automated) knowledge discovery?",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "jvm",
+    "title": "Will you be working with the philosophy 'as open as possible' for your data?",
+    "answers": [
+      {
+        "label": "No",
+        "advice": "You will need to explain!"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "ivg",
+    "title": "What is the service level you will be offering to users of the data?",
+    "answers": [
+      {
+        "label": "Download only",
+        "advice": "That functionality level can surely be found in another place too!"
+      },
+      {
+        "label": "A search and access interface"
+      },
+      {
+        "label": "A processing service",
+        "advice": "Make sure to budget sufficient compute resources for the users"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "mjf",
+    "title": "Will your publications be open access?",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes, this is budgeted in the project"
+      },
+      {
+        "label": "Yes, our department/institute will pay for open access publishing"
+      }
+    ]
+  },
+  {
+    "type": "option",
+    "shortuid": "fxe",
+    "title": "Will you be archiving your data after the project in 'cold storage'?",
+    "text": "Will you be storing (in cold storage) copies of your own data for a longer period after the project has ended? Possibly as a continuation of archival as part of data storage strategy during the project?",
+    "answers": [
+      {
+        "label": "No"
+      },
+      {
+        "label": "Yes"
+      }
+    ]
+  }
+]
+
