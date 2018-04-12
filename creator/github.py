@@ -55,6 +55,14 @@ class GitHubCreator:
             raise GitHubError(response)
         return response
 
+    def get_file(self, owner, repo, path):
+        response = self.session.get(
+            '{}/repos/{}/{}/contents/{}'.format(self.GH_API_ENDPOINT, owner, repo, path)
+        )
+        if response.status_code != 200:
+            raise GitHubError(response)
+        return response
+
     @staticmethod
     def repodata(name, description, homepage, license_template):
         return {

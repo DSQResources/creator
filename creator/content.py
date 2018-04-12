@@ -62,5 +62,7 @@ def load_from_json(json_fp):
     return [Question.create(q) for q in json.load(json_fp)]
 
 
-def render(template, question):
-    return jinja_env.get_template(template).render(question=question)
+def render(template, question, owner, reponame):
+    return jinja_env.get_template(template).render(question=question,
+                                                   owner=owner,
+                                                   reponame=reponame)

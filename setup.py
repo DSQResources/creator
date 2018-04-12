@@ -16,9 +16,9 @@ setup(
     zip_safe=False,
     packages=find_packages(),
     package_data={
-        'repocribro': [
-            'templates/*.md',
-            'templates/resources/*.md',
+        'creator': [
+            'template/*.md',
+            'template/resources/*.md',
         ]
     },
     entry_points={
